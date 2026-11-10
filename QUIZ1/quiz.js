@@ -5,4 +5,7 @@ const student = {
     Course: "BSIT"
 }
 
-console.log(student);
+console.log(name);
+console.log(ID);
+console.log(Age);
+console.log(Course);
