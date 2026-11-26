@@ -27,8 +27,10 @@ export function formatBookStatus(book, status = "Available") {
   return `${book.getBookLabel()} — Status: [${status}]`;
 }
 
+console.log(myBookProfile)
+
 export const books = [
-  createBookRecord("Me Before You", "Jojo Moyes", 2012),
+  createBookRecord("Sheltering Rain", "Jojo Moyes", 2002),
   createBookRecord("After You", "Jojo Moyes", 2015),
   createBookRecord("Still Me", "Jojo Moyes", 2018)
 ];

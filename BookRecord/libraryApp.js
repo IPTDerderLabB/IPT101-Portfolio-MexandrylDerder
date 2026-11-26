@@ -1,4 +1,4 @@
-import { sampleBook, formatBookStatus, books } from "./bookModule.js";
+import { formatBookStatus, books } from "./bookModule.js";
 
 const statuses = ["Available", "Borrowed", "Reserved"];
 
